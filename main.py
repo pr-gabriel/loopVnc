@@ -35,4 +35,4 @@ while True:
         print(f"Conectando ao host: {host}")
         subprocess.Popen(["vncviewer", f"{host}:7007", "-config", vnc_config_path])
         time.sleep(30)
-        subprocess.run(["pkill", "vncviewer"])
+        subprocess.run(["pkill", "vncviewer"])
